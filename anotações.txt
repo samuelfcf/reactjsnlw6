@@ -1,0 +1,2 @@
+* uso do firebase da google, que dá vários serviços ja prontos pra usar
+  no frontend.
