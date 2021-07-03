@@ -1,2 +1,6 @@
 * uso do firebase da google, que dá vários serviços ja prontos pra usar
   no frontend.
+
+  *todo os arquivos utilizados no projeto sao importados via javascriopt, até as imagens! o webpack que roda por tras dos panos no react configura tudo.
+
+  * utilizar sass no projeto.
