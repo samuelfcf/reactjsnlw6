@@ -12,8 +12,8 @@ import { AuthContext } from '../App';
 
 export function NewRoom() {
 
-  const { value, setValue } = useContext(AuthContext);
-  AuthContext
+  const { user, signInWithGoogle } = useContext(AuthContext);
+
   return (
     <div id="page-auth">
       <aside>
@@ -25,6 +25,7 @@ export function NewRoom() {
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeaks"></img>
+          <h1>{user?.name}</h1>
           <h2>Criar uma nova sala</h2>
           <form>
             <input 
