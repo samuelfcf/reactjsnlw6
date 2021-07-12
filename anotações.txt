@@ -9,4 +9,4 @@
     Compartilhamento de informação entre os componentes sem que seja necessário realizar uma requsição ao backend toda vez, utilizando o conceito de CONTEXTOS.
     -> Contexto usado no arquivo de rotas!! (TestContext)
     -> Para que os contextos sejam atualizados dinamicamente é necessário criar um estado para isso.
-    -> Hooks.
+    -> useContext.
