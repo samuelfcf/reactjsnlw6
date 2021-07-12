@@ -4,3 +4,9 @@
   *todo os arquivos utilizados no projeto sao importados via javascriopt, até as imagens! o webpack que roda por tras dos panos no react configura tudo.
 
   * utilizar sass no projeto.
+
+  * como saber se o usuario esta autenticado ou nao em todos os locais da aplicação? Algumas informações (como nome, id, avatar, etc) precisam ser recuperadas pelo frontend.
+    Compartilhamento de informação entre os componentes sem que seja necessário realizar uma requsição ao backend toda vez, utilizando o conceito de CONTEXTOS.
+    -> Contexto usado no arquivo de rotas!! (TestContext)
+    -> Para que os contextos sejam atualizados dinamicamente é necessário criar um estado para isso.
+    -> Hooks.
